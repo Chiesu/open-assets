@@ -75,7 +75,7 @@ CGBookcase materials are built from downloaded texture archives. Its DirectX nor
 
 ## Installation
 
-Install `polyhaven_lite-0.7.1.zip` through Blender **Preferences > Extensions > Install from Disk**. Installing over Open Assets 0.5.x or Poly Haven Lite upgrades the existing extension because the extension ID remains `polyhaven_lite` for compatibility.
+Install `open_assets_0.7.1.zip` through Blender **Preferences > Extensions > Install from Disk**. Installing over Open Assets 0.5.x or Poly Haven Lite upgrades the existing extension because the extension ID remains `polyhaven_lite` for compatibility.
 
 The local library location is configurable in add-on preferences. Existing installations keep their current library folder.
 
@@ -126,7 +126,7 @@ Open Assets now keeps a tiny `.open_assets_catalog_index.json` file in the local
 
 Source: https://github.com/Chiesu/open-assets
 
-Download the compiled Blender Extension ZIP from the latest [GitHub Release](https://github.com/Chiesu/open-assets/releases/latest), not the source-code ZIP shown by GitHub's green Code menu. Blender: **Edit > Preferences > Get Extensions > Install from Disk**.
+Download the installable Blender Extension ZIP from the latest [GitHub Release](https://github.com/Chiesu/open-assets/releases/latest), not the source-code ZIP shown by GitHub's green Code menu. Blender: **Edit > Preferences > Get Extensions > Install from Disk**.
 
 The GitHub distribution is an independent experimental project. Changes to external provider APIs, or installed add-on versions, may require follow-up updates. See [PUBLIC-RELEASE.md](PUBLIC-RELEASE.md) for upgrade/licensing notes.
 

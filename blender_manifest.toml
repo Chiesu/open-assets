@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+id = "polyhaven_lite"
+version = "0.7.1"
+name = "Open Assets"
+tagline = "Search and import CC0 assets from multiple libraries"
+maintainer = "Magnetic Works contributors"
+type = "add-on"
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+network = "Download CC0 assets from supported online asset libraries"
+files = "Store downloaded assets in a local Blender library"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc", "*.pyo", ".git/", ".github/", "docs/", "*.zip", "*.md", ".gitignore"]

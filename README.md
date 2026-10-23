@@ -2,6 +2,8 @@
 
 Open Assets is a Blender 4.5+ / 5.x extension for searching, downloading, placing, and managing **free, no-attribution assets** from multiple libraries without syncing entire catalogs first.
 
+<img width="1920" height="1080" alt="hero" src="https://github.com/user-attachments/assets/1280c823-615b-4e9d-afb0-4a69ee0f7fdb" />
+
 ## Sources
 
 The browser currently combines five sources:
@@ -15,6 +17,8 @@ The browser currently combines five sources:
 There is no license control in the UI. The provider adapters enforce the product rule before an item is shown; paid or unsupported results never enter the browser.
 
 ## Search and research workflow
+
+<img width="1920" height="1080" alt="search-results" src="https://github.com/user-attachments/assets/7c8c7f10-233f-421c-b634-3b54ee49d5b8" />
 
 The default browser stays compact:
 
@@ -36,6 +40,8 @@ Deep Search is intentionally opt-in because it is slower and creates more thumbn
 
 ## Result interaction
 
+<img width="1920" height="1080" alt="selected-asset" src="https://github.com/user-attachments/assets/0323d118-fb60-444e-a1b4-baeb9a95dbd6" />
+
 - Normal results stay fixed half-width in a two-column browser.
 - Selecting one result expands only that result to a full-width row.
 - Its former row partner is pushed forward and may move to the following page.
@@ -56,6 +62,8 @@ Poly Haven assets retain live post-import resolution and LOD switching. ambientC
 Kenney is pack-based rather than resolution-based. Selecting a Kenney result downloads the 3D pack, imports the supported model files in a background Blender process, and marks the individual models as collections in the local **Open Assets** Asset Browser.
 
 ## Local library and lifecycle
+
+<img width="1920" height="1080" alt="session-library" src="https://github.com/user-attachments/assets/5d2cffcc-b98b-411b-b59c-9ebcb3f2f514" />
 
 Every downloaded asset is converted into the local **Open Assets** Blender Asset Library. Existing Poly Haven Lite/Open Assets downloads are kept compatible because the extension ID and legacy asset keys are preserved.
 
